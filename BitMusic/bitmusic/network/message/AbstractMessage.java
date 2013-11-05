@@ -11,15 +11,31 @@ package network.message;
  * @author florian
  */
 public abstract class AbstractMessage {
+    /**
+     * .
+     */
     private EnumTypeMessage type;
+    /**
+     * .
+     */
     private String ipSource;
+    /**
+     * .
+     */
     private String ipDest;
 
-    public AbstractMessage(String paramIpSource, String paramIpDest){
-        //Set les ip avec appel au controller
+    /**
+     * .
+     * @param paramIpSource
+     * @param paramIpDest
+     */
+    public AbstractMessage(final String paramIpSource, final String paramIpDest){
         ipSource = paramIpSource;
         ipDest = paramIpDest;
     }
 
+    /**
+     * .
+     */
     public abstract void treatment();
 }
