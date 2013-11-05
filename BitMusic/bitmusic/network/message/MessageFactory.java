@@ -38,8 +38,8 @@ public final class MessageFactory {
      * @param type : Type of the message we want.
      * @return The newly created message.
      */
-    public static AbstractMessage createMessage(final EnumTypeMessage type/*,
-    passage d'un objet sérialisé contenant les arguments ?*/) {
+    public static AbstractMessage createMessage(final EnumTypeMessage type,
+            final String paramIpSource, final String paramIpDest) {
         AbstractMessage message = null;
         switch (type) {
             case AddComment :
@@ -61,7 +61,7 @@ public final class MessageFactory {
                 message = new MessageLogOut();
                 break;
             case NotifyNewConnection :
-                message = new MessageNotifyNewConnection();
+                message = new MessageNotifyNewConnection(paramIpSource, paramIpDest);
                 break;
             case ReplyConnectionUser :
                 message = new MessageReplyConnectionUser();
