@@ -1,5 +1,6 @@
 package music.data;
 
+import bitmusic.profile.Rights;
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -8,7 +9,7 @@ import java.util.LinkedList;
  * @author Elthum
  */
 public class Song {
-    
+
     //################################################################//
     //########################## ATTRIBUTES ##########################//
     //################################################################//
@@ -17,98 +18,98 @@ public class Song {
      * References the sond id.
      */
     private String songId;
-    
+
     /**
      * References the title of the song.
      */
     private String title;
-    
+
     /**
      * References the artist of the song.
      */
     private String artist;
-    
+
     /**
      * References the album og the song.
      */
     private String album;
-    
+
     /**
      * References the list of tags.
      */
     private LinkedList<String> tags;
-    
+
     /**
      * References the song comments.
      */
     private LinkedList<Comment> comments;
-    
+
     /**
      * References the song grades.
      */
     private LinkedList<Grade> grades;
-    
+
     /**
      * References the owner id.
      */
     private String ownerId;
-    
+
     /**
      * References the rights by category.
      */
     private HashMap<String,Rights> rightsByCategory;
-    
+
     /**
      * References the local rights
      */
     private Rights localRights;
-    
+
     //##################################################################//
     //######################### CONSTRUCTORS ###########################//
     //##################################################################//
-        
+
     //##################################################################//
     //########################### METHODS ##############################//
     //##################################################################//
-    
+
     /**
      * Add or replace a comment on a song.
      * @param comment The comment to add.
      */
     public void addComment(Comment comment) {
     }
-    
+
     /**
      * Delete a comment from a song.
      * @param authorId The author of the song.
      */
     public void deleteComment(String authorId) {
-        
+
     }
-    
+
     /**
      * Add or replace a grade to the song.
      * @param grade The grade to add or replace.
      */
     public void addGrade(Grade grade) {
     }
-    
+
     /**
      * Delete a grade from a song.
      * @param authorId The author of the grade.
      */
     public void deleteGrade(String authorId) {
     }
-    
+
     /**
      * Add or update the right of a category
      * @param categoryName The category's name to update or add.
      * @param rights The rights to associate to the category.
      */
-    public void updateCategory(String categoryName, Rights rights) { 
+    public void updateCategory(String categoryName, Rights rights) {
         this.rightsByCategory.put(categoryName, rights);
     }
-    
+
     /**
      * Delete a category with its rights in a song?
      * @param categoryName The category to delete.
@@ -116,11 +117,11 @@ public class Song {
     public void deleteCategory(String categoryName) {
         this.rightsByCategory.remove(categoryName);
     }
-    
+
     //##################################################################//
     //####################### GETTER & SETTER ##########################//
     //##################################################################//
-   
+
     /**
      * Getter of the attribute songId.
      * @return The song id.

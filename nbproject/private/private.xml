@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageSendSongList.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageFactory.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageLogOut.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageTagRequest.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/music/data/Song.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageErrorNotification.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageSendSongFile.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageNotifyNewConnection.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageReplyConnectionUser.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/AbstractMessage.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageAddComment.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageUpdateCommentNotification.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/profile/Category.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageSendUser.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageGetUser.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageGetSongsByUser.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageGetSongFile.java</file>
+            <file>file:/home/florian/NetBeansProjects/BitMusic/BitMusic/bitmusic/network/message/MessageSearchSongsByTag.java</file>
+        </group>
+    </open-files>
+</project-private>
